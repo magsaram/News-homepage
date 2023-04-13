@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --orange: hsl(35, 77%, 62%);
+  --red: hsl(5, 85%, 63%);
+  --offWhite: hsl(36, 100%, 99%);
+  --gray: hsl(233, 8%, 79%);
+  --darkGray: hsl(236, 13%, 42%);
+  --darkBlue: hsl(240, 100%, 5%);
+}
+body {
+  font-family: "Inter", sans-serif;
+}
