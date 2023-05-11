@@ -154,3 +154,103 @@ footer a {
   color: black;
   text-decoration: none;
 }
+@media (min-width: 1024px) {
+  .navdesktop {
+    display: block;
+  }
+  .menumobile {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  .nav {
+    margin: 50px auto 50px;
+    width: 60%;
+  }
+  .navdesktop a {
+    margin-left: 40px;
+    font-size: 15px;
+    color: var(--darkGray);
+    text-decoration: none;
+  }
+  .header-aside {
+    margin: 0 auto 71px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  header {
+    margin: 0 auto 0px;
+    width: 80%;
+  }
+  header img {
+    margin-bottom: 28px;
+  }
+  .headerText {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+  }
+  h1 {
+    width: 120%;
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .headerText p {
+    margin-bottom: 29px;
+  }
+  .new {
+    padding: 32px 24px;
+    margin: 0 auto;
+    width: 35%;
+  }
+  .new h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .new h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  section {
+    margin: 0 auto 60px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+  section > div {
+    display: flex;
+  }
+  section img {
+    margin-right: 24px;
+    width: 100px;
+  }
+  .sectionText h3 {
+    margin-bottom: 12px;
+    font-size: 32px;
+    color: var(--gray);
+  }
+  .sectionText h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  .sectionText p {
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--darkGray);
+  }
+  footer {
+    margin-bottom: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  footer a {
+    color: black;
+    text-decoration: none;
+  }
+}
